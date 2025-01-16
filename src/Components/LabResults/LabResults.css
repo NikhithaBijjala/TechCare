@@ -1,0 +1,24 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.labSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.lab-results{
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 10px;
+    overflow-y: scroll;
+    max-height: 150px;
+}

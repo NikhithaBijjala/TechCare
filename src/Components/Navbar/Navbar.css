@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.navbar-brand .navbar-logo img {
+    flex: 1;
+    height: 25px;
+}
+
+.PictureName img {
+    height: 25px
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-brand {
+    display: flex;
+    flex: 1
+}
+
+.navbar-links{
+    display: flex;
+    flex:2;
+}
+
+.ProfileSection {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+
+.PictureName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px 0 5px;
+}
+
+.icons {
+    display: flex;
+}
+
+.profiletext p {
+    margin: 0px;
+    font-size: 10px;
+    padding: 0px 3px 0px 3px;
+}
+
+.verticalLine {
+    padding: 5px 2px 0px 3px;
+    margin-right: 5px;
+    border-right: 1px solid rgb(144, 143, 143);
+    height: 20px;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+
+.iconContainer:hover{
+    background-color: #01F0D0 ;
+    border: 1px solid #01F0D0;
+}

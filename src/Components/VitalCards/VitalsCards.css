@@ -1,0 +1,40 @@
+.vitals-cards {
+    display: flex;
+    gap: 20px;
+    /* overflow-y: scroll;
+    max-height: 300px; */
+    /* margin:10px; */
+
+  }
+  .card {
+    flex:1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  .vital-image {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .marginTop{
+    margin-top:15px;
+  }
+
+  .respiratory-rate {
+    background-color:#E0F3FA; /* Light pink */
+    border: 2px solid#E0F3FA; /* Pink border */
+  }
+  
+  .temperature {
+    background-color: #FFE6E9; /* Light blue */
+    border: 2px solid #FFE6E9; /* Blue border */
+  }
+  
+  .heart-rate {
+    background-color: #FFE6F1; /* Light green */
+    border: 2px solid #FFE6F1; /* Green border */
+  }
+  

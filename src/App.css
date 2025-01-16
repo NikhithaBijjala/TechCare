@@ -1,0 +1,155 @@
+
+/* General styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.dashboard{
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.sidebar {
+  flex:1;
+  height: 100%;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar .patient-list {
+  list-style: none;
+  padding-right: 10px;
+  overflow-y: scroll;
+  max-height: 670px;
+}
+.PatientsHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.sidebar .patient-list li {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.sidebar .patient-list li:hover {
+  background-color: #e9ecef;
+}
+
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header .profile {
+  display: flex;
+  align-items: center;
+}
+
+.header .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.diagnosis-section {
+  display: flex;
+  flex:2;
+  gap: 20px;
+}
+
+.diagnosis-chart {
+  flex: 2;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.diagnosis-cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.diagnosis-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.diagnosis-card h3 {
+  font-size: 18px;
+  color: #333333;
+}
+
+.diagnosis-card p {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* Diagnostic List */
+.diagnostic-list {
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+.diagnostic-table {
+  height: 235px;
+  overflow-y: scroll;
+  border-collapse: collapse;
+}
+
+.diagnostic-list th,
+.diagnostic-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.diagnostic-list th {
+  font-weight: bold;
+  color: #555555;
+}
+
+.diagnostic-list tr:hover {
+  background-color: #f9f9f9;
+}
+.patient-details{
+  height: 100%;
+}
+.patientslist{
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

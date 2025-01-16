@@ -1,0 +1,82 @@
+.diagnosis-history{
+    padding:10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+  
+  .graph {
+    /* max-width: 800px; */
+    margin: 20px auto;
+  }
+  .rowFlex{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+  .smalltext{
+    font-size: 14px;
+  }
+  .historySection2{
+    margin-bottom: 10px;
+    background-color: #F4F0FE;
+    display: flex;
+    border-radius: 12px;
+  }
+  .card h4 {
+    margin: 0px;
+  }
+  .card p {
+    margin: 0px;
+  }
+  .filter-options {
+    margin-bottom: 20px;
+  }
+  .value-item{
+    margin: 0px;
+  }
+  .horizontalLine{
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  .filter-options button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .filter-options button:hover {
+    background-color: #0056b3;
+  }
+  .section1{
+    background-color: #F4F0FE;
+  }
+  
+  .value-summary {
+    display: flex;
+    background-color: #F4F0FE;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* max-width: 800px; */
+    margin: 20px auto;
+    
+  }
+  
+  .value-item p{
+    margin: 3px;
+  }
+  
+  .circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .value-item span {
+    font-size: 16px;
+  }
+  
